@@ -4,4 +4,9 @@ db.json
 *.log
 node_modules/
 public/
+
 .deploy*/
+
+*.swp
+_site
+_theme_packages
