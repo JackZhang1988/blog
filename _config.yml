@@ -18,8 +18,8 @@ since: 2000 # The start year showing in your copyright section.
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://ppoffice.github.io/hexo-theme-icarus
-root: /hexo-theme-icarus/
+url: http://jackzhang1988.github.io/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -31,7 +31,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -83,5 +83,5 @@ theme: icarus
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/ppoffice/hexo-theme-icarus.git
-  branch: gh-pages
+  repository: https://github.com/JackZhang1988/JackZhang1988.github.io.git 
+  branch: master
